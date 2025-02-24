@@ -16,7 +16,7 @@ def main():
     coding_animation = load_lottie_url("https://assets10.lottiefiles.com/packages/lf20_jtbfg2nb.json")
     
     # Sidebar - Profile and Contact Info
-    st.sidebar.image("C:\\Users\\SANJAY\\Pictures\\Rohit-Image.png", caption="Rohit Sharma", width=250)
+    st.sidebar.image("Rohit-Image.png", caption="Rohit Sharma", width=250)
     st.sidebar.title("Contact")
     st.sidebar.write("📧 Email: sharmarohits814@gmail.com")
     st.sidebar.write("🔗 [LinkedIn](https://www.linkedin.com/in/rohit-sharma-i7/)")
