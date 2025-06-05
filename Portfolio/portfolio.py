@@ -17,7 +17,7 @@ def main():
     coding_animation = load_lottie_url("https://assets10.lottiefiles.com/packages/lf20_jtbfg2nb.json")
 
     # Sidebar - Profile and Contact Info
-    img = Image.open("C://Users//Rohit Sharma//Downloads//IMG_2874.jpg")
+    img = Image.open("Portfolio/Rohit-Image.png")
     rotated_img = img.rotate(270, expand=True)
     st.sidebar.image(rotated_img, caption="Rohit Sharma", width=250)
 
