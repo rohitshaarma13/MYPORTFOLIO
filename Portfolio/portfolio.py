@@ -18,7 +18,7 @@ def main():
 
     # Sidebar - Profile and Contact Info
     img = Image.open("Portfolio/Rohit-Image.png")
-    rotated_img = img.rotate(270, expand=True)
+    rotated_img = img.rotate(90, expand=True)
     st.sidebar.image(rotated_img, caption="Rohit Sharma", width=250)
 
     st.sidebar.title("Contact")
